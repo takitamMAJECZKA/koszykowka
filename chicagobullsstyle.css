@@ -1,0 +1,16 @@
+.naglowek{
+    background-image: url(assets/chicago\ bulls/naglowek.jpg);
+}
+
+.logo-druzyny{
+    height: 25vw;
+    width: 27.5vw;
+    min-height: 280px;
+    min-width: 300px;
+}
+
+@media(max-width: 900px){
+    .kontener-sekcji{
+        display: flex;
+    }
+}

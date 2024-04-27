@@ -1,0 +1,17 @@
+.naglowek{
+    background-image: url(assets/duke/naglowek.jpg);
+}
+
+@media(max-width: 900px){
+    .kontener-sekcji{
+        display: flex;
+    }
+}
+
+.logo-druzyny{
+    margin-bottom: 40px;
+    height: 20vw;
+    width: 25vw;
+    min-height: 230px;
+    min-width: 280px;
+}

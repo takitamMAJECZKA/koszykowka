@@ -1,0 +1,16 @@
+.naglowek{
+    background-image: url(assets/la\ lakers/la\ lakers\ naglowek.jpg);
+}
+
+.logo-druzyny{
+    height: 20vw;
+    width: 32.4vw;
+    min-height: 185.5px;
+    min-width: 300px;
+}
+
+@media(max-width: 900px){
+    .kontener-sekcji{
+        display: flex;
+    }
+}

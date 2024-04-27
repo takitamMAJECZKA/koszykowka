@@ -1,0 +1,70 @@
+.naglowek{
+    background-image: url(assets/zawodnicy/naglowek.webp);
+}
+
+.kontener-listy{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontener-listy .lista-spisu{
+    border: 2px solid black;
+    box-shadow: 7.5px 7.5px 15px black;
+}
+
+.lista-spisu li{
+    list-style: none;
+    padding: 12.5px;
+    font-size: 16pt;
+}
+.lista-spisu li a{text-decoration: none;}
+
+.kontener-zawodnika{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kontener-zawodnika img{
+    border-radius: 20%;
+    margin-right: 50px;
+    width: 50vw;
+    height: 35vw;
+}
+.kontener-zawodnika p{
+    width: 70%;
+    font-size: 14pt;
+}
+
+.kontener-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.kontener-media img{
+    padding: 0 70px 0 70px;
+    border-radius: 25%;
+    width: 29vw;
+    min-width: 350px;
+}
+
+.kontener-media video{
+    height: auto;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.kontener-media video, .kontener-media img{
+    transition: all 0.3s;
+}
+
+.kontener-media video:hover, .kontener-media img:hover{
+    transform: scale(1.02);
+}
+
+.nad-naglowek{
+    height: 7.5vh;
+}
