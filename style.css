@@ -13,7 +13,7 @@ html, body{
     scroll-behavior: smooth;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 15px;
     }
     ::-webkit-scrollbar-track {
@@ -29,7 +29,7 @@ html, body{
     }
     ::-webkit-scrollbar-thumb:window-inactive {
     background: orange;
-} */
+}
 
 nav{
     width: 100%;
@@ -189,7 +189,7 @@ nav{
 
 @media(max-width: 900px) {
     .naglowek h1{
-        font-size: 38pt;
+        font-size: 32pt;
     }
     .kontener-sekcji{
         display: block;
